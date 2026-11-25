@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Arial;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background:linear-gradient(135deg,rgb(20, 20, 179), rgb(137, 137, 243), rgb(109, 109, 199));
+    background-image: url("senac.png");
+    background-size: 100%;
+    background-position: center;
+}
+.container{
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.644);
+    
+
+}
+.container h2{
+    text-align: center;
+    color:blue;
+    margin-bottom: 30px;
+
+}
+.grupo_input{
+    margin-bottom: 20px;
+
+}
+.grupo_input label{
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+.grupo_input input {
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 12px;
+
+}
+.grupo_input input:focus{
+    border-color: aqua;
+    box-shadow: 0 0 5px rgb(87, 168, 168);
+}
+.link{
+    margin-top: 10px;
+    text-align: center;
+
+}
+.link a{
+    text-decoration: none;
+    color: blue;
+    font-size: 15px;
+}
+.link a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+input[type="submit"]{
+    width: 100%;
+    background-color: rgb(95, 95, 148);
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    border-color: rgb(95, 95, 136);
+
+}
+input[type="submit"]:hover{
+    background-color: rgb(82, 160, 160);
+    cursor: pointer;
+    border-color: none;
+}
